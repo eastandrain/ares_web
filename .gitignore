@@ -1,0 +1,21 @@
+# 환경 설정 파일에는 사내 접속 정보가 포함될 수 있습니다.
+.env
+.env.*
+!.env.example
+
+# Python 관련 파일
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Node.js 관련 파일
+frontend/node_modules/
+frontend/dist/
+
+# 편집기 및 운영체제 파일
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
